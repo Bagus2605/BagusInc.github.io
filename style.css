@@ -1,0 +1,720 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Font */
+
+@font-face {
+    font-family: 'rounded';
+    src: url(font/ARLRDBD.TTF)
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(font/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'viga';
+    src: url(font/Viga-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bahn';
+    src: url(font/bahnschrift.ttf);
+}
+
+.viga {
+    font-family: "viga";
+}
+
+.bebas {
+    font-family: "bebas";
+}
+
+.rounded {
+    font-family: "rounded";
+}
+
+.bahn {
+    font-family: "bahn";
+}
+
+
+/* akhirfont */
+
+
+/* navigasi */
+
+.nav-link {
+    text-align: center;
+}
+
+.containernav {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.textnav {
+    font-family: "rounded";
+    font-size: 17px;
+}
+
+.logo {
+    font-family: "viga";
+    font-size: 30px;
+}
+
+.mtop {
+    margin-top: -70px;
+}
+
+
+/* akhir navigasi */
+
+
+/* section 1 */
+
+.textb {
+    font-family: "viga";
+    font-size: 50px;
+}
+
+.kanan h1,
+h3,
+a {
+    float: right;
+    /* margin-right: 15px; */
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+.mtb {
+    margin-top: -10px;
+}
+
+.mtt {
+    margin-top: 170px;
+}
+
+.mtt h3 {
+    font-size: 15px;
+}
+
+.gmbr img {
+    width: 7px;
+    height: 200px;
+    margin-top: -20px;
+}
+
+.gmbr a {
+    text-decoration: none;
+    color: white;
+}
+
+.set {
+    font-size: 17px;
+    font-family: "rounded";
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.mtbag {
+    margin-top: .25rem;
+}
+
+
+/* responsive hp */
+
+@media (max-width: 576px) {
+    .col {
+        margin: 0;
+        padding: 0;
+    }
+
+    .col-6 {
+        padding: 0;
+        margin-left: 0;
+        margin-left: 5px;
+    }
+
+    .containernav {
+        width: 90%;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .kanan h3 {
+        font-size: 17px;
+        margin-top: -5px;
+    }
+
+    .bahn {
+        float: right;
+    }
+
+    .bgni {
+        background-image: url(gambar/hpini.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-image: none;
+        height: 603px;
+    }
+
+    .mtt {
+        margin-top: 150px;
+    }
+
+    .textb {
+        font-size: 25px;
+        float: right;
+    }
+
+    .gmbr img {
+        width: 7px;
+        margin-left: 15px;
+    }
+
+    .set {
+        width: 120px;
+        font-size: 15px;
+        padding: 7px 10px;
+        margin-top: 17px;
+    }
+}
+
+
+/* akhir responsive hp */
+
+
+/* akhir section 1 */
+
+
+/* bawah scrool bar */
+
+.topsect2 h1 {
+    font-family: "bebas";
+    font-size: 60px;
+}
+
+.topsect2 p {
+    font-family: "bahn";
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.topsect2 a {
+    float: left;
+}
+
+.topsect2 h2 {
+    font-family: "viga";
+    font-size: 60px;
+}
+
+.topsect2 h4 {
+    font-family: "bahn";
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+
+/* .models-content {} */
+
+@media screen and (max-width: 576px) {
+    .rs {
+        margin-left: 0px;
+    }
+
+    .topsect2 h1,
+    p {
+        text-align: center;
+    }
+
+    .topsect2 h1 {
+        font-size: 47px;
+        margin-top: 30px;
+    }
+
+    .topsect2 p {
+        font-size: 14px;
+    }
+
+    .topsect2 a {
+        margin-left: 38%;
+    }
+
+    .models-content {
+        flex-direction: column-reverse;
+    }
+
+    .container2 {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    /* my servs */
+    .mtprj {
+        margin-top: 48px;
+        height: 510px;
+    }
+
+    .aturproject p {
+        font-family: "rounded";
+        text-align: center;
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    .aturproject h1 {
+        font-size: 40px;
+    }
+
+    .aturimg img {
+        width: 45%;
+        margin-left: 30%;
+    }
+
+    .aturimg2 img {
+        width: 45%;
+        /* height: 75%; */
+        margin-left: 30%;
+    }
+
+    .aturimg3 img {
+        width: 45%;
+        /* height: 99%; */
+        margin-left: 30%;
+    }
+
+    .aturimg4 img {
+        width: 45%;
+        /* height: 73%; */
+        margin-left: 30%;
+    }
+
+    .rounded p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .col-auto {
+        margin: 0;
+        padding: 0;
+    }
+
+    .rounded {
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .mtmy {
+        margin-top: 40px;
+        /* margin-left: auto; */
+    }
+
+    .my {
+        margin-right: 38%;
+    }
+
+    /* akhir mysrvs */
+    /* project */
+    .atrprj p {
+        font-family: "rounded";
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    /* akhir prjct */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mtprj {
+        height: 770px;
+    }
+
+    .col-md-6 {
+        margin-left: -40px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .rs {
+        margin-top: 44px;
+    }
+
+    .containernav {
+        width: 90%;
+    }
+
+    .container2 {
+        width: 85%;
+        margin: auto;
+        display: block;
+    }
+
+    .topsect2 {
+        margin-bottom: 55px;
+        margin-left: auto;
+    }
+
+    .topsect2 h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .topsect2 h2 {
+        font-size: 45px;
+    }
+
+    .topsect2 p {
+        margin-top: px;
+        font-size: 13px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #000;
+        width: 60%;
+        margin: auto;
+        margin-bottom: -3px;
+    }
+
+    .bgni {
+        background-image: url(gambar/untuk\ tab.png);
+        background-repeat: no-repeat;
+        margin-top: -70px;
+        background-size: 100%;
+        border-image: none;
+        height: 525px;
+    }
+
+    .textb {
+        font-family: "viga";
+        font-size: 32px;
+    }
+
+    .kanan h1,
+    h3,
+    a {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .mtb {
+        margin-top: -10px;
+    }
+
+    .mtt {
+        margin-top: 180px;
+        /* margin-bottom: 200px; */
+    }
+
+    .mtbag {
+        margin-top: -20px;
+    }
+
+    .mtt h3 {
+        font-size: 22px;
+        /* margin-left: 100px; */
+    }
+
+    .gmbr img {
+        width: 6px;
+        height: 90%;
+        margin-top: -50px;
+        margin-right: 100px;
+    }
+
+    .gmbr a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .set {
+        font-size: 14px;
+        font-family: "rounded";
+        margin-top: 5px;
+        margin-left: 200px;
+        border-radius: 8px;
+        width: 120px;
+        padding: 8px 8px;
+    }
+
+    .aturproject p {
+        font-family: "rounded";
+        text-align: center;
+        font-size: 20px;
+        margin-top: -18px;
+    }
+
+    .aturproject h1 {
+        font-size: 50px;
+    }
+
+    .aturimg img {
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    .aturimg2 img {
+        width: 70%;
+        /* height: 70%; */
+        margin-left: 16%;
+    }
+
+    .aturimg3 img {
+        width: 70%;
+        /* height: 99%; */
+        margin-left: 16%;
+    }
+
+    .aturimg4 img {
+        width: 70%;
+        /* height: 73%; */
+        margin-left: 18%;
+    }
+
+    .rounded p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .col-auto {
+        margin: 0;
+        padding: 25px 40px;
+    }
+
+    .rounded {
+        margin: auto;
+    }
+
+    .mtmy {
+        margin-top: 40px;
+        /* margin-left: 100px; */
+    }
+
+    .my {
+        margin-right: 40%;
+    }
+
+    .set1 {
+        font-size: 20px;
+        font-family: "rounded";
+        border-radius: 8px;
+        width: 130px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* akhir bawah scroll bar */
+
+
+/* project */
+
+.editgam {
+    padding: 10px;
+}
+
+.editgam p {
+    margin-top: 10px;
+    font-family: "rounded";
+    font-size: 20px;
+}
+
+
+/* akhir project */
+
+@media screen and (min-width: 992px) {
+    .nav-link {
+        margin-right: 35px;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #000;
+        width: 60%;
+        margin: auto;
+        margin-bottom: -3px;
+    }
+
+    .bgni {
+        background-image: url(gambar/Group\ 39.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: -72px;
+        border-image: none;
+        height: 692px;
+    }
+
+    .container2 {
+        width: 68%;
+        margin: auto;
+        display: block;
+    }
+
+    .textb {
+        font-family: "viga";
+        font-size: 50px;
+    }
+
+    .kanan h1,
+    h3,
+    a {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .mtb {
+        margin-top: -10px;
+    }
+
+    .mtt {
+        margin-top: 170px;
+        /* margin-bottom: 200px; */
+    }
+
+    .mtbag {
+        margin-top: .70rem;
+    }
+
+    .mtt h3 {
+        font-size: 30px;
+        margin-left: 100px;
+    }
+
+    .gmbr img {
+        width: 7px;
+        height: 100%;
+        margin-top: -20px;
+        margin-right: 100px;
+    }
+
+    .gmbr a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .set {
+        font-size: 17px;
+        font-family: "rounded";
+        margin-top: 30px;
+        margin-left: 200px;
+        border-radius: 8px;
+        width: 150px;
+        padding: 10px 20px;
+    }
+
+    .set1 {
+        font-size: 17px;
+        font-family: "rounded";
+        margin-top: 0px;
+        border-radius: 8px;
+        width: 130px;
+        padding: 7px 20px;
+    }
+
+    .rs {
+        margin-left: 120px;
+    }
+
+    .mtprj {
+        margin-top: 48px;
+        height: 500px;
+    }
+
+    .atrprj {
+        margin-top: 60px;
+    }
+
+    .atrprj h1 {
+        font-size: 50px;
+    }
+
+    .atrprj p {
+        font-family: "rounded";
+        text-align: center;
+        font-size: 20px;
+        margin-top: -18px;
+    }
+
+    .aturproject p {
+        font-family: "rounded";
+        text-align: center;
+        font-size: 20px;
+        margin-top: -18px;
+    }
+
+    .aturproject h1 {
+        font-size: 50px;
+    }
+
+    .aturimg img {
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    .aturimg2 img {
+        width: 70%;
+        /* height: 75%; */
+        margin-left: 16%;
+    }
+
+    .aturimg3 img {
+        width: 70%;
+        /* height: 99%; */
+        margin-left: 16%;
+    }
+
+    .aturimg4 img {
+        width: 70%;
+        /* height: 73%; */
+        margin-left: 18%;
+    }
+
+    .rounded p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .rounded {
+        margin: auto;
+    }
+
+    .mtmy {
+        margin-top: 50px;
+        /* margin-left: 100px; */
+    }
+
+    .my {
+        position: absolute;
+        margin-left: 32.4%;
+    }
+}
